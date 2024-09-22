@@ -11,13 +11,16 @@ import { Button } from "@/components/ui/button";
 
 import image from "./assets/image.jpg";
 import Services from "./components/services";
+import Header from "./components/Header";
 import { useRef } from "react";
+import Footer from "./components/Footer";
 
 function App() {
   const scrollRef = useRef<HTMLDivElement>(null);
 
   return (
     <>
+      <Header></Header>
       <div className="grid md:grid-cols-2">
         <Card className="bg-bgAquaBlue border-none rounded-none lg:pt-20 md:pt-12 pt-10 lg:pl-10">
           <CardHeader>
@@ -57,6 +60,7 @@ function App() {
       </div>
       <div ref={scrollRef}></div>
       <Services></Services>
+      <Footer></Footer>
     </>
   );
 }
