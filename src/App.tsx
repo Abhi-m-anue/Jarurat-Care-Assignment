@@ -18,10 +18,10 @@ function App() {
 
   return (
     <>
-      <div className="grid grid-cols-2">
-        <Card className="bg-bgAquaBlue border-none rounded-none pt-32 pl-10">
+      <div className="grid md:grid-cols-2">
+        <Card className="bg-bgAquaBlue border-none rounded-none lg:pt-20 md:pt-12 pt-10 lg:pl-10">
           <CardHeader>
-            <CardTitle className="text-gray-600 text-6xl">
+            <CardTitle className="text-gray-600 md:text-4xl">
               JARURAT CARE
             </CardTitle>
             <CardDescription className="text-2xl">
@@ -51,7 +51,7 @@ function App() {
             </Button>
           </CardFooter>
         </Card>
-        <div>
+        <div className="hidden md:block">
           <img src={image}></img>
         </div>
       </div>
