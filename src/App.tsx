@@ -21,7 +21,7 @@ function App() {
       <div className="grid md:grid-cols-2">
         <Card className="bg-bgAquaBlue border-none rounded-none lg:pt-20 md:pt-12 pt-10 lg:pl-10">
           <CardHeader>
-            <CardTitle className="text-gray-600 md:text-4xl">
+            <CardTitle className="text-gray-600 lg:text-6xl text-4xl">
               JARURAT CARE
             </CardTitle>
             <CardDescription className="text-2xl">
